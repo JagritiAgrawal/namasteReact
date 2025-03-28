@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href = "index.css" />
+    <title>Document</title>
+</head>
+<body>
+    <!--Starting  with simple HTML code Example 1-->
+     <div id = "root">
+     <!--<h1>
+        Hello World !
+     </h1>> -->
+     <p> Jagriti is here</p> <!--This will be replaced by JS code as JS will load after HTML and get it replaced.-->
+      <!--Now implement the same through javascript means attach the heading inside div tag through Javascript-->
+     </div>
+     <h2> Jagriti is here</h2>
+    <!--<script>
+     const heading = document.createElement("h1");
+     heading.innerHTML = "Hello World From Javascript !";
+     const root = document.getElementById('root');
+     root.appendChild(heading);
+
+    </script> -->
+    <!-- NOW adding React into our Project-->
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script src="app.js">
+    </script>
+
+    <!-- <script src = "./app.js"></script>-->
+</body>
+</html>
