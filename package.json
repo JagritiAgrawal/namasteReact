@@ -1,0 +1,30 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "It is a learning react project",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JagritiAgrawal/namasteReact.git"
+  },
+  "author": "Jagriti Agrawal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JagritiAgrawal/namasteReact/issues"
+  },
+  "homepage": "https://github.com/JagritiAgrawal/namasteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browsersList" : [
+    "Last 2 version"
+  ]
+}
