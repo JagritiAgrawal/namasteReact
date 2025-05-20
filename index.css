@@ -1,3 +1,69 @@
 #heading {
     color: red;
 }
+
+.header {
+    display: flex;
+    border: 1px solid black;
+}
+
+.flex-child {
+     flex: 1;
+}
+
+.logo-container {
+    margin-right: 20%;
+}
+
+.list-style {
+    list-style-type : none
+}
+
+
+.nav-items >ul {
+    display: flex;
+}
+
+.nav-items > ul > li {
+margin: 10px;
+padding : 10px;
+font-size : 24px;
+}
+
+.res-container {
+    border: 1px solid grey;
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0 -5px;
+}
+
+.res-card {
+    margin: 26px;
+    width: 300px;
+    color: grey;
+    padding : 2px 11px 2px 11px;
+    border: 1px solid grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.res-card:hover {
+cursor: pointer;
+border: 2px solid black;
+}
+
+.res-image {
+    width: 280px;
+    height: 200px;
+    padding: 11px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.search {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
